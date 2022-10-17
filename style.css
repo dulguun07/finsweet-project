@@ -1,0 +1,44 @@
+html{
+    font-family: 'poppins';
+}
+body{
+    margin: 0;
+    max-width: 1280px;
+}
+.navbar{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 7vh;
+    background-color: aliceblue;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar a{
+    text-decoration: none ;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    color: #063255;
+    font-weight: 600;
+}
+ nav{
+    width: 80%;
+    display: flex;   
+}
+ nav ul{   
+    list-style: none;
+    display: flex;
+    width: 700px;
+    justify-content: space-around;
+ }
+ 
+ nav ul li a{
+    color:  #394149;
+ }
+
+
+
+ 
