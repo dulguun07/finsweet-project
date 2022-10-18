@@ -120,3 +120,30 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
+/* section 2 (help section) */
+.helpsection{
+    width: 735px;
+}
+.helpsection h2{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px; 
+    color:#1d3444
+}
+.helpsection p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px; 
+    color:#5b5b5b
+}
+.helpPost{
+    width: 100%;
+    display:flex ;
+    justify-content: space-between;
+}
+.helpPost img{
+    border-radius: 20px;
+    
+}
+
