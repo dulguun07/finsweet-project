@@ -1,25 +1,25 @@
 html{
     font-family: 'poppins';
 }
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
 }
-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
 }
+   /* header */
 .navbar{
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
 }
-.navbar a{
-    text-decoration: none ;
-}
 .logo{
-    width: 40%;
     display: flex;
     justify-content: center;
     color: #063255;
@@ -27,20 +27,22 @@ header{
     font-size: 25px;
 }
  nav{
-    width: 80%;
+ 
     display: flex;  
 }
  nav ul{   
+    width: 500px;
     list-style: none;
     display: flex;
-    width: 700px;
     justify-content: space-around;
  }
  nav ul li a{
     color:  #394149;
+    text-decoration: none ;
  }
  .button{
-    width: 200px;
+    width: 173px;
+    height: 52px;
     background: rgba(245, 138, 7, 0.1);
     border-radius:31px ;
     display: flex;
@@ -49,14 +51,72 @@ header{
  }
 .button a{
     color:#F58A07;
+    text-decoration: none ;
 }
-.container{
-    width: 100%;
-    max-width: 1280px;
-    margin: auto;
-}
+ /* section 1 */
 .top{
-    height: 80vh;
+    height: 703px;
     background-color:#DCEAF5;
+  
+}  
+.topflex{
+    display: flex;
 }
- 
+.topfirst{
+    width: 576px;
+    height: 439px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.text1{
+    color: #1d3444;
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 72px;
+}
+.text2{
+    font-size: 18px;
+    font-weight: 500;
+    color: #5b5b5b;
+    line-height: 30px;
+}
+.topfirstbutton{    
+    width: 199px;
+    height: 54px;
+    border-radius: 27px;
+    background-color: #F58A07;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topfirstbutton a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.topbuttons{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+.secondbutton a{
+    color: #1d3444;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.topfirst p{
+    color: #394149 , 50%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+.topLogos{
+    display: flex;
+    justify-content: space-between;
+}
