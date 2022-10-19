@@ -1,0 +1,38 @@
+.header-part-1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    color: #063255;
+    font-weight: 600;
+    font-size: 25px;
+}
+ .header-part-2{ 
+    display: flex;  
+}
+ nav ul{   
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+ }
+ nav ul li a{
+    color:  #394149;
+
+ }
+ .call-button{
+    width: 173px;
+    height: 52px;
+    background: rgba(245, 138, 7, 0.1);
+    border-radius:31px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.call-button a{
+    color:#F58A07;
+
+}

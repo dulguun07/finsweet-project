@@ -1,89 +1,39 @@
-html{
-    font-family: 'poppins';
-}
-*{
-    box-sizing: border-box;
-}
-body{
-    margin: 0;
-}
-.container{
-    width: 100%;
-    max-width: 1280px;
-    margin: auto;
-}
-   /* header */
-.navbar{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-}
-.logo{
-    display: flex;
-    justify-content: center;
-    color: #063255;
-    font-weight: 600;
-    font-size: 25px;
-}
- nav{
- 
-    display: flex;  
-}
- nav ul{   
-    width: 500px;
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
- }
- nav ul li a{
-    color:  #394149;
-    text-decoration: none ;
- }
- .button{
-    width: 173px;
-    height: 52px;
-    background: rgba(245, 138, 7, 0.1);
-    border-radius:31px ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
-.button a{
-    color:#F58A07;
-    text-decoration: none ;
-}
- /* section 1 */
-.top{
+/* section 1 */
+.sec-1{
     height: 703px;
     background-color:#DCEAF5;
-  
 }  
-.topflex{
+.sec-1-flex{
     display: flex;
 }
-.topfirst{
+.sec-1-left{
     width: 576px;
     height: 439px;
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
 }
-.text1{
+.sec-1-left-title{
     color: #1d3444;
     font-size: 58px;
     font-weight: 600;
     line-height: 72px;
 }
-.text2{
+.sec-1-left-p-1{
     font-size: 18px;
     font-weight: 500;
     color: #5b5b5b;
     line-height: 30px;
 }
-.topfirstbutton{    
+.sec-1-left-buttons{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-top: 20px;
+}  
+.sec-1-left-first-button {    
     width: 199px;
     height: 54px;
     border-radius: 27px;
@@ -92,40 +42,44 @@ body{
     justify-content: center;
     align-items: center;
 }
-.topfirstbutton a{
+.sec-1-left-first-button a {
     color: #fff;
     text-decoration: none;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 600; 
 }
-.topbuttons{
-    width: 70%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;   
-}
-.secondbutton a{
+.sec-1-left-second-button a{
     color: #1d3444;
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
 }
-.topfirst p{
-    color: #394149 , 50%;
+.sec-1-left-p-2{
+    color: #39414950;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
+    margin-top: 50px;
 }
-.topLogos{
+.sec-1-logos{
     display: flex;
     justify-content: space-between;
 }
+.sec-1-right{
+    margin-right: 10000px;
+}
 
 /* section 2 (help section) */
+.sect2{
+    height: 900px;
+    display: flex;
+    align-items: center;
+}
 .helpsection{
     width: 735px;
 }
 .helpsection h2{
+    margin-top: 0;
     font-size: 48px;
     font-weight: 600;
     line-height: 56px; 
@@ -144,6 +98,99 @@ body{
 }
 .helpPost img{
     border-radius: 20px;
-    
+}
+.helpPost h3{
+    font-size: 24px;
+    font-weight: 500px;
+    line-height: 25.56px;
+    color: #0d1317;
+}
+.helpPost p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color:#5b5b5b
+} 
+.helpPost2{ 
+    color: #1d3444;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.helpPost a{
+    color: #F58A07;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 17.04px;
+    text-decoration: none;
+}
+.helpPost a::after{
+    content: "\2192";   
+}
+/* section 3 */
+.feasection{
+    height: 665px;
+    background: #DCEAF5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fsectexts{
+    display: flex;
+    align-items: center;
+}
+.fsectexts h3{
+    width: 50%;
+    color: #0d1317;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+.fsectexts p {
+    width: 50%;
+    color: #1d3444;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.fseccards{
+    display: flex;
+    justify-content:space-between ;
+}
+.fseccard{
+    background-color: #fff ;
+    width: 401px;
+    height: 277px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.fseccard div{
+    width: 336px;
+}
+.fseccard h3{
+    color: #0d1317;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 25.56PX;
+}
+.fseccard p{
+    color: #5b5b5b;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28PX;
+}
+/* section 4 */
+.absection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abtext h2{ 
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+
 }
 
