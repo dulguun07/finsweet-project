@@ -7,8 +7,6 @@
     display: flex;
 }
 .sec-1-left{
-    width: 576px;
-    height: 439px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -65,99 +63,100 @@
     display: flex;
     justify-content: space-between;
 }
-.sec-1-right{
-    margin-right: 10000px;
-}
-
-/* section 2 (help section) */
-.sect2{
-    height: 900px;
+/* section 2  */
+.sec-2{
+    height: 850px;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
 }
-.helpsection{
+.sec-2-title{
     width: 735px;
 }
-.helpsection h2{
-    margin-top: 0;
+.sec-2-title h2{
     font-size: 48px;
     font-weight: 600;
     line-height: 56px; 
     color:#1d3444
 }
-.helpsection p{
+.sec-2-title p{
     font-size: 18px;
     font-weight: 500;
     line-height: 30px; 
     color:#5b5b5b
 }
-.helpPost{
+.sec-2-help-post{
     width: 100%;
     display:flex ;
     justify-content: space-between;
 }
-.helpPost img{
+.sec-2-help-post article{
+    width: 30%;
+}
+.sec-2-help-post img{
     border-radius: 20px;
 }
-.helpPost h3{
+.sec-2-help-post h3{
     font-size: 24px;
     font-weight: 500px;
     line-height: 25.56px;
     color: #0d1317;
 }
-.helpPost p{
+.sec-2-help-post p{
     font-size: 16px;
     font-weight: 500;
     line-height: 28px;
     color:#5b5b5b
 } 
-.helpPost2{ 
+.sec-2-help-post-2-p{ 
     color: #1d3444;
     font-size: 16px;
     font-weight: 500;
     line-height: 28px;
 }
-.helpPost a{
+.sec-2-help-post-orange-text{
     color: #F58A07;
     font-size: 16px;
     font-weight: 500;
     line-height: 17.04px;
-    text-decoration: none;
 }
-.helpPost a::after{
+.sec-2-help-post-orange-text::after{
     content: "\2192";   
 }
 /* section 3 */
-.feasection{
+.sec-3{
     height: 665px;
     background: #DCEAF5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec-3-title{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.fsectexts{
-    display: flex;
-    align-items: center;
-}
-.fsectexts h3{
+.sec-3-title h3{
     width: 50%;
     color: #0d1317;
     font-size: 36px;
     font-weight: 600;
     line-height: 44px;
+    margin-top: 0;
 }
-.fsectexts p {
+.sec-3-title p {
     width: 50%;
     color: #1d3444;
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
+    margin-top: 0;
 }
-.fseccards{
+.sec-3-cards{
     display: flex;
     justify-content:space-between ;
 }
-.fseccard{
+.sec-3-card{
     background-color: #fff ;
     width: 401px;
     height: 277px;
@@ -166,31 +165,85 @@
     align-items: center;
     border-radius: 20px;
 }
-.fseccard div{
+.sec-3-card div{
     width: 336px;
 }
-.fseccard h3{
+.sec-3-card h3{
     color: #0d1317;
     font-size: 24px;
     font-weight: 600;
     line-height: 25.56PX;
 }
-.fseccard p{
+.sec-3-card p{
     color: #5b5b5b;
     font-size: 16px;
     font-weight: 500;
     line-height: 28PX;
 }
 /* section 4 */
-.absection{
+.sec-4{
+    height: 800px;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
-.abtext h2{ 
+.sec-4-title{
+    width:50%;
+}
+.sec-4-title h2{ 
     font-size: 48px;
     font-weight: 600;
     line-height: 56px;
-
+    color: #0d1317;
 }
+.sec-4-title p { 
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #5b5b5b;
+    width: 80%;
+}
+.sec-4-features{
+    display: flex;
+}
+.sec-4-features h3{
+    font-family: 'inter';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #F58A07;
+}
+.sec-4-features h4{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 25.56px;
+    color: #0d1317;
+}
+.sec-4-features p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #5b5b5b;
+}
+.sec-4-img{
+    width: 50%;
+}
+.sec-4-img div{
+    background-color: #F58A07;
+    position: relative;
+    height: 667px;
+    width: 153px;
+    border-radius: 20px 0 0 20px;
+}
+.sec-4-img img{ 
+    border-radius: 20px;
+    mix-blend-mode: multiply;
+}
+/* section 5 */
+.sec-5{
+    background: #edf7ff;
+    border-radius: 20px ;
+}
+
+
+
 
