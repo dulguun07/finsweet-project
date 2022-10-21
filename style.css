@@ -224,12 +224,8 @@
     line-height: 28px;
     color: #5b5b5b;
 }
-.sec-4-img{
-    width: 50%;
-}
 .sec-4-img div{
     background-color: #F58A07;
-    position: relative;
     height: 667px;
     width: 153px;
     border-radius: 20px 0 0 20px;
@@ -240,10 +236,116 @@
 }
 /* section 5 */
 .sec-5{
+    height: 682px;
     background: #edf7ff;
-    border-radius: 20px ;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
 }
-
-
-
-
+.sec-5-ribbon{
+    position: absolute;
+    right: -15px;
+    top:-15px;
+}
+.sec-5-tabs{
+    display:flex;
+    width: 50%;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 48px;
+    }
+.sec-5-tab-1{
+    width: 194px;
+    height: 40px;
+    background: #fff;
+    border-radius: 20px;
+    color: #F58A07;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-5-tab-2{
+    width: 155px;
+    height: 40px;
+    border: 1px solid #a8bccc;
+    border-radius: 31px;
+    color: #06315530;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.sec-5-tab-3{
+    width: 183px;
+    height: 40px;
+    border: 1px solid #a8bccc;
+    border-radius: 31px;
+    color: #06315530;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.sec-5-flex{
+    display: flex;  
+    padding:0 48px;
+    justify-content: space-between;
+}
+.sec-5-title{
+    width: 50%;
+    height: 466px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sec-5-title h2{
+    margin-top: 0;
+    font-weight: 600px;
+    font-size: 48px;
+    line-height: 56px;
+    color: #0d1317;
+}
+.sec-5-title p{
+    width: 510px;
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5b5b5b;
+    margin-top: 0;
+}
+.sec-5-title-orange-text{
+    color: #F58A07;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 17.04px;
+}
+.sec-5-title-orange-text::after{
+    content: "\2192";   
+}
+.sec-5-img{
+    height: 466px;
+    width: 472px ;
+}
+.sec-5-img div{
+    background-color: #F58A07;
+    width: 120px;
+    height:466px ;
+    border-radius: 20px 0 0 20px;
+}
+.sec-5-img img{ 
+    border-radius: 20px;
+    mix-blend-mode: multiply;
+}
+.sec-6{
+    height:518px;
+    background:#F58A07;
+    max-width: 1920px;
+    margin:auto;
+    display: flex;
+}   
+.sec-6-img{
+    width: 50%;
+    background-image: url(./images/experience-image.png);
+}

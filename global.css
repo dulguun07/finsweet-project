@@ -1,13 +1,11 @@
-html{
-   
-}
+
 *{
     box-sizing: border-box;
 }
 body{
     margin: 0; 
     font-family: 'poppins';
-    max-width: 1933px;
+    max-width: 100%
 }
 .container{
     width: 100%;
