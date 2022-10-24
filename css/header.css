@@ -21,6 +21,7 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
+    list-style: none;
  }
  nav ul li a{
     color:  #394149;
@@ -36,7 +37,10 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #F58A07;
  }
-.call-button a{
-    color:#F58A07;
+.call-button:hover{
+    background: #F58A07;
+    color:#fff
+    
 }

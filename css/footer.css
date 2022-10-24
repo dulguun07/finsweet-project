@@ -4,6 +4,7 @@ footer{
     height: 463px; 
     display: flex;
     position: relative;
+    margin: auto;
 }
 .footer-column{
     display: flex;
