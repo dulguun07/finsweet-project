@@ -125,7 +125,7 @@
 /* section 3 */
 .sec-3{
     height: 665px;
-    background: #DCEAF5;
+    background: #edf7ff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -347,7 +347,7 @@
 }   
 .sec-6-img{
     width: 50%;
-    background-image: url(./images/experience-image.png);
+    background-image: url(../images/experience-image.png);
 }
 .sec-6-right{
     display: flex;
@@ -422,7 +422,7 @@
 .sec-7-right{
     width: 620px;
     height: 501px;
-    background: url(./images/video-image.png);
+    background: url(../images/video-image.png);
     background-size: 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -449,9 +449,10 @@
     font-family: 'inter';
     color: #fff;
 }
+/* section 8 */
 .sec-8{
     height: 819px;
-    background-color: #a8bccc;
+    background-color: #DCEAF5;
     display: flex;
 }
 .sec-8 h2{

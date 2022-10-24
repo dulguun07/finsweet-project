@@ -1,0 +1,99 @@
+footer{
+    background:#063255;
+    color: #fff;
+    height: 463px; 
+    display: flex;
+    position: relative;
+}
+.footer-column{
+    display: flex;
+    justify-content: space-between;
+}
+.copyright{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-privacy{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo {
+    font-weight: 600;
+    font-size: 36px;
+}
+.about p{ 
+    font-weight: 600;
+    font-size: 36px;
+}
+.footer-column h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+}
+.footer-column h3{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+.footer-column p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+input{
+    width: 342px;
+    height: 54px;
+    background: #fff;
+    border-radius:31px;
+    border: 0;
+}
+input::placeholder{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 32px;
+}
+.subscribe-button{
+    border-radius: 31px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 106.5%;
+    width: 156px;
+    height: 54px;
+    background:#F58A07;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.join{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.join h3{
+    margin-bottom: 0;
+}
+.about{
+    width: 30%;
+}
+.left-decor{
+    width: 53px;
+    height: 144px;
+    background: #F58A07;
+    border-radius: 0 20px 0 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.right-decor{
+    width: 53px;
+    height: 287px;
+    background: #F58A07;
+    border-radius: 20px 0 0 20px;
+    position: absolute;
+    right: 0;
+    top:38px;
+}
+
